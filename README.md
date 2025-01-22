@@ -25,3 +25,11 @@ This tutorial outlines the process of creating a Virtual Machine using Azure and
 ![Image](https://github.com/user-attachments/assets/585d1d8d-d3a8-4f43-bd63-af219472fcc4)
 
 ![Image](https://github.com/user-attachments/assets/4837686f-5aed-4393-a73e-795fae0d06cc)
+
+![Image](https://github.com/user-attachments/assets/9ba5d11b-2ae7-4a35-b0f4-263d9542f9fb)
+
+![Image](https://github.com/user-attachments/assets/450c438b-ca45-4ed7-befe-c141cd5d6656)
+
+![Image](https://github.com/user-attachments/assets/55c8ae37-4f55-42f8-8879-8b333e2a6d93)
+
+![Image](https://github.com/user-attachments/assets/e89f9267-5154-47be-a098-43fb47eb24a2)
