@@ -11,25 +11,77 @@ This tutorial outlines the process of creating a Virtual Machine using Azure and
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop (Windows & MacOS versions)
 
-]
 <h2>Installation Steps</h2>
 
-![Image](https://github.com/user-attachments/assets/bccb93d2-4053-4a9b-be1e-f62ebf3459c1)
+<h3>Step 1: Creating a Virtual Machine for osTicket</h3>
 
-![Image](https://github.com/user-attachments/assets/cac77ac0-f924-47a7-8d3e-7b3bcebe1e82)
+-Sign into Azure
 
-![Image](https://github.com/user-attachments/assets/0ee994e0-a8b2-4959-a6f7-9ca9c609a98d)
+-Go to Create a resource → Select Virtual Machine.
 
-![Image](https://github.com/user-attachments/assets/afc25a74-e7f1-4114-88a8-6576045fc199)
+![Image](https://github.com/user-attachments/assets/127c37ad-fc8f-4fe5-ac4d-ee49a4dde407)
 
-![Image](https://github.com/user-attachments/assets/585d1d8d-d3a8-4f43-bd63-af219472fcc4)
 
-![Image](https://github.com/user-attachments/assets/4837686f-5aed-4393-a73e-795fae0d06cc)
+<h3>Step 2: Virtual Machine Settings</h3>
 
-![Image](https://github.com/user-attachments/assets/9ba5d11b-2ae7-4a35-b0f4-263d9542f9fb)
+-First create a new  Resource Group
 
-![Image](https://github.com/user-attachments/assets/450c438b-ca45-4ed7-befe-c141cd5d6656)
+-Now name the VM and select the Region
+Keep in mind that the region determines the available vCPU sizes below
+You may need to change the region to receive more options 
 
-![Image](https://github.com/user-attachments/assets/55c8ae37-4f55-42f8-8879-8b333e2a6d93)
+-Choose Windows 10 Pro as the Image
 
-![Image](https://github.com/user-attachments/assets/e89f9267-5154-47be-a098-43fb47eb24a2)
+![Image](https://github.com/user-attachments/assets/adacf78e-2c35-4fc9-b5a2-a6b7608d4ac2)
+
+
+
+<h3>Step 3: Virtual Machine Settings</h3>
+
+-Choose a VM of 2 vCPUs or more 
+
+-Remember that your region directly affects the available sizes 
+
+-The admin account can have any Username and Password you like
+
+![Image](https://github.com/user-attachments/assets/f7264070-12eb-4bf8-a915-bd8f3237d303)
+
+
+<h3>Step 4: Virtual Machine Settings</h3>
+
+-Check the box at the very bottom
+
+-Then click “Review + Create” 
+
+![Image](https://github.com/user-attachments/assets/d13df200-aea6-437e-a71e-f53168a5a7a2)
+
+
+<h3>Step 5: Grabbing the IP</h3>
+
+-Click the “Go to Resource” button
+-Copy the Numbers in the Public IP address tab to the right
+
+![Image](https://github.com/user-attachments/assets/72aabd13-0f9e-438f-a8e7-993d9e00f593)
+![Image](https://github.com/user-attachments/assets/874285a6-23b0-4fe7-88e3-363f329a5435)
+
+
+<h3>Step 6: Mac VM sign in</h3>
+
+-Go to the App Store to download the Windows App
+-Click the + icon in the top right - Click Add PC
+-Paste the IP and then your Username and Password
+
+![Image](https://github.com/user-attachments/assets/29890bbd-1ccc-428a-a435-a93b3539a35c)
+![Image](https://github.com/user-attachments/assets/c373de36-4289-419e-a6d8-8e8018e19cda)
+
+<h3>Step 7: Window VM sign in</h3>
+-Click the Windows key
+-Type Remote Desktop
+-Paste the IP and the sign in using your Username and Password
+
+![Image](https://github.com/user-attachments/assets/b9f5a010-2acf-4ab4-bc40-0d66ccec00d0)
+
+🎉Congratulations! You have sucessfully Setup the VM and now ready to install osTicket!🎉
+
+![Image](https://github.com/user-attachments/assets/318bb611-ae3c-4ed1-aca5-2cb998a440d2)
+
